@@ -1,0 +1,10 @@
+---
+- name: Check whether ruby is installed
+  ansible.builtin.shell: |
+    ruby --version
+  register: ruby_installed
+  changed_when: false
+
+- name: Make sure Ruby is installed
+  ansible.builtin.debug:
+    var: ruby_installed

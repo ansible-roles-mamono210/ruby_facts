@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  role_name: ruby_facts
+  author: mamono210
+  description: Get Ruby information for Linux.
+  company: no name
+  license: "license (BSD, MIT)"
+  min_ansible_version: 13.2.0
+  platforms:
+    - name: EL
+      release:
+        - 9
+  galaxy_tags: []
+dependencies: []
